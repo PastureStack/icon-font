@@ -1,26 +1,66 @@
 {
-  "name": "rancher-icons",
-  "version": "1.0.4",
-  "description": "Rancher icon font",
+  "name": "@pasturestack/icon-font",
+  "version": "2.0.0-alpha.0",
+  "private": true,
+  "description": "Compatibility-preserving UI icon font for PastureStack",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rancher/icons.git"
+    "url": "git+https://github.com/PastureStack/icon-font.git"
   },
+  "files": [
+    "CHANGES.md",
+    "LICENSE",
+    "LICENSES/",
+    "PROVENANCE.md",
+    "THIRD_PARTY_MARKS.md",
+    "UPSTREAM_ATTRIBUTION.md",
+    "codepoints.json",
+    "demo.html",
+    "features.scss",
+    "fonts/",
+    "scripts/",
+    "source-manifest.json",
+    "src/",
+    "style.css",
+    "style.scss",
+    "variables.scss"
+  ],
   "scripts": {
-    "tag": "gulp tag"
+    "build": "node scripts/build.mjs",
+    "audit": "node scripts/audit.mjs",
+    "audit:dependencies": "npm audit --audit-level=moderate",
+    "audit:signatures": "npm audit signatures",
+    "test": "npm run build && npm run audit && npm run verify:reproducible && npm run audit:signatures && npm run audit:dependencies",
+    "verify:reproducible": "node scripts/verify-reproducible.mjs"
   },
-  "author": "Rancher Labs, Inc.",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/rancher/rancher/issues"
+  "author": "PastureStack contributors",
+  "license": "SEE LICENSE IN LICENSES/README.md",
+  "packageManager": "npm@12.0.2",
+  "engines": {
+    "node": "24.18.0",
+    "npm": "12.0.2"
   },
-  "homepage": "https://github.com/rancher/icons#readme",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.18.0",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": "12.0.2",
+      "onFail": "error"
+    }
+  },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-bump": "^2.4.0",
-    "gulp-filter": "^4.0.0",
-    "gulp-git": "^1.11.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-tag-version": "^1.3.0"
+    "lucide-static": "1.25.0",
+    "opentype.js": "1.3.4",
+    "svg2ttf": "6.1.0",
+    "svgicons2svgfont": "15.0.1",
+    "ttf2woff": "3.0.0",
+    "ttf2woff2": "8.0.1"
+  },
+  "allowScripts": {
+    "ttf2woff2@8.0.1": true
   }
 }

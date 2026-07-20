@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "lucide-static@1.25.0",
+  "lucideTtfSha256": "dea2cbded3b651e82688938c1a7a75a475cfd1315dd8e6991a6623f8813bd6ac",
+  "icons": [
+    {
+      "codepoint": 59648,
+      "aliases": [
+        "adjust"
+      ],
+      "source": "lucide-static@1.25.0:contrast",
+      "sourceOutlineSha256": "b021049604c254754740b2b4f695d728d9c0e6ed7719c6efab38b587cbb0bf92"
+    },
+    {
+      "codepoint": 59649,
+      "aliases": [
+        "alert"
+      ],
+      "source": "lucide-static@1.25.0:triangle-alert",
+      "sourceOutlineSha256": "f7578a40e29e65ac339fc092e1de7153e72fb1742a701b779d203ee7351cdc32"
+    },
+    {
+      "codepoint": 59650,
+      "aliases": [
+        "apple"
+      ],
+      "source": "lucide-static@1.25.0:monitor-cog",
+      "sourceOutlineSha256": "84327c7d2340ffaa12664aaf83803f3927df1399fd0d9132915969cb34b0cb11"
+    },
+    {
+      "codepoint": 59651,
+      "aliases": [
+        "arrow-circle-up"
+      ],
+      "source": "lucide-static@1.25.0:circle-arrow-up",
+      "sourceOutlineSha256": "37eea6bd5fe93bb9e55515fa9e09391da7aa284fdaa961241e7aea94629e0d71"
+    },
+    {
+      "codepoint": 59652,
+      "aliases": [
+        "box",
+        "container",
+        "containers"
+      ],
+      "source": "lucide-static@1.25.0:box",
+      "sourceOutlineSha256": "c36a9e51882dae72de4af71c6e5014d4757e26b589a97dd405d99135d7427318"
+    },
+    {
+      "codepoint": 59653,
+      "aliases": [
+        "certificate"
+      ],
+      "source": "lucide-static@1.25.0:badge-check",
+      "sourceOutlineSha256": "2df5ef640b69541e88b78512672e1015b375acf3f847a44e7b21afaf05b5da87"
+    },
+    {
+      "codepoint": 59654,
+      "aliases": [
+        "check"
+      ],
+      "source": "lucide-static@1.25.0:check",
+      "sourceOutlineSha256": "1e0ba666e19bde3af6fc2136d134413f0929fd482057ddc02bc1274ce58de9c8"
+    },
+    {
+      "codepoint": 59655,
+      "aliases": [
+        "chevron-down"
+      ],
+      "source": "lucide-static@1.25.0:chevron-down",
+      "sourceOutlineSha256": "8b85122ddb210cb4dbd65ccb11ef4acd9e56db9d3f947f6d2c5d39edd591496c"
+    },
+    {
+      "codepoint": 59656,
+      "aliases": [
+        "chevron-left"
+      ],
+      "source": "lucide-static@1.25.0:chevron-left",
+      "sourceOutlineSha256": "2aab8768c6c85d2c8b8ea7d8546cde537ae908b83cdc985e7c6991677c1fddd1"
+    },
+    {
+      "codepoint": 59657,
+      "aliases": [
+        "chevron-right"
+      ],
+      "source": "lucide-static@1.25.0:chevron-right",
+      "sourceOutlineSha256": "9c8937b1e8123e7dee9d102dbe4e5fc3f783f52d77c3caa4ecca98428d1662bf"
+    },
+    {
+      "codepoint": 59658,
+      "aliases": [
+        "chevron-up"
+      ],
+      "source": "lucide-static@1.25.0:chevron-up",
+      "sourceOutlineSha256": "563c3936e623cf8d8a69962e803b00ce27714f83bf4e079b677c69490a8a90af"
+    },
+    {
+      "codepoint": 59659,
+      "aliases": [
+        "circle-o"
+      ],
+      "source": "lucide-static@1.25.0:circle",
+      "sourceOutlineSha256": "9ca188b750174d113d5be9746b1e2b3f50b7a0bdcf3ba548dd0a89c91e1a3684"
+    },
+    {
+      "codepoint": 59660,
+      "aliases": [
+        "circle"
+      ],
+      "source": "lucide-static@1.25.0:circle-dot",
+      "sourceOutlineSha256": "7968427f1dafc9d96f02b394af975f4ddfd1cd71b32c475c62853dffe65db377"
+    },
+    {
+      "codepoint": 59661,
+      "aliases": [
+        "cloud"
+      ],
+      "source": "lucide-static@1.25.0:cloud",
+      "sourceOutlineSha256": "19714d335331ebc79f128acbd8551cbc6f9b5f87a4cb9409a44d6f7bec2d3ad5"
+    },
+    {
+      "codepoint": 59662,
+      "aliases": [
+        "compass"
+      ],
+      "source": "lucide-static@1.25.0:compass",
+      "sourceOutlineSha256": "74740e1e664c531cf0f0fb73407cbe9a7b581caec9addd52772f325187c590bb"
+    },
+    {
+      "codepoint": 59663,
+      "aliases": [
+        "copy"
+      ],
+      "source": "lucide-static@1.25.0:copy",
+      "sourceOutlineSha256": "f26ddd256516eef9c7e492433dab6507371b40cbe12c3a9baa03b613283e06ea"
+    },
+    {
+      "codepoint": 59664,
+      "aliases": [
+        "cpu"
+      ],
+      "source": "lucide-static@1.25.0:cpu",
+      "sourceOutlineSha256": "27dd0119a636c85d0bdc2eb24984aabff3f21bd4dfdb11b5b56231803ab67c6c"
+    },
+    {
+      "codepoint": 59665,
+      "aliases": [
+        "database"
+      ],
+      "source": "lucide-static@1.25.0:database",
+      "sourceOutlineSha256": "71e15b7fa09692805a16238b2efa8a1a47ba1e43da55d87e8858711c7d44e170"
+    },
+    {
+      "codepoint": 59666,
+      "aliases": [
+        "dot-circlefill"
+      ],
+      "source": "lucide-static@1.25.0:circle-dot-dashed",
+      "sourceOutlineSha256": "ccffee0334a586464d6e7f16632317d4fcd72e479946016435cfc91045690093"
+    },
+    {
+      "codepoint": 59667,
+      "aliases": [
+        "dot-diagonalfill"
+      ],
+      "source": "lucide-static@1.25.0:circle-slash-2",
+      "sourceOutlineSha256": "3955593c35798613fa7a872c90e6d3f30fa6e3573058313b85be57e8070bedd7"
+    },
+    {
+      "codepoint": 59668,
+      "aliases": [
+        "download"
+      ],
+      "source": "lucide-static@1.25.0:download",
+      "sourceOutlineSha256": "921fed3257aacd25fa98c4b0fcaea2772ced6b7f909592fe87a6626c2769f377"
+    },
+    {
+      "codepoint": 59669,
+      "aliases": [
+        "edit"
+      ],
+      "source": "lucide-static@1.25.0:pencil",
+      "sourceOutlineSha256": "6ae517f154e98d04085995d927169cc5bb599ed3275b2bfadb2f7d6799a1cfff"
+    },
+    {
+      "codepoint": 59670,
+      "aliases": [
+        "ellipsis"
+      ],
+      "source": "lucide-static@1.25.0:ellipsis",
+      "sourceOutlineSha256": "66e949cab8e146eda6bddcd5b31b2d0ac13c2931e04c7f12793a0ded95a68f21"
+    },
+    {
+      "codepoint": 59671,
+      "aliases": [
+        "external-link"
+      ],
+      "source": "lucide-static@1.25.0:external-link",
+      "sourceOutlineSha256": "efcb6e3f11fc37849079deb6ab74a46484264cd678c2896cff22a6318bd7b7b2"
+    },
+    {
+      "codepoint": 59672,
+      "aliases": [
+        "face-frown"
+      ],
+      "source": "lucide-static@1.25.0:frown",
+      "sourceOutlineSha256": "0dd0d18e2e5f693a7a4cc26c89668779a5f99d687e140de9e6060bdb296a9229"
+    },
+    {
+      "codepoint": 59673,
+      "aliases": [
+        "face-gasp"
+      ],
+      "source": "lucide-static@1.25.0:annoyed",
+      "sourceOutlineSha256": "cbaefd1cb24713f128312e49d4cb2c4abf46d772a8fc504226a560ffdf30931f"
+    },
+    {
+      "codepoint": 59674,
+      "aliases": [
+        "face-meh"
+      ],
+      "source": "lucide-static@1.25.0:meh",
+      "sourceOutlineSha256": "bf1fa3a265f5ce55f9abf09f6594f9c773db01ca4f2981c1c9e9d15192f72c34"
+    },
+    {
+      "codepoint": 59675,
+      "aliases": [
+        "face-open-smile"
+      ],
+      "source": "lucide-static@1.25.0:smile-plus",
+      "sourceOutlineSha256": "cc2c12b51ae663f44c1eb23eff2b06e4a2342b2a85b7a00594b7b92978d31f42"
+    },
+    {
+      "codepoint": 59676,
+      "aliases": [
+        "face-smile"
+      ],
+      "source": "lucide-static@1.25.0:smile",
+      "sourceOutlineSha256": "ccbc6bd939d6193c299a173c8453a5d30a155871681f0444ccd304c0b9a233de"
+    },
+    {
+      "codepoint": 59677,
+      "aliases": [
+        "file"
+      ],
+      "source": "lucide-static@1.25.0:file",
+      "sourceOutlineSha256": "c07a525fe568dd211a1c29198637a1722efd8b51c41b6d4cf182eacb7ae8280d"
+    },
+    {
+      "codepoint": 59678,
+      "aliases": [
+        "files"
+      ],
+      "source": "lucide-static@1.25.0:files",
+      "sourceOutlineSha256": "e68543d24c9b8e668f4c28b09dc779a0d93a8f436a45bee4963f1b5f97ec1361"
+    },
+    {
+      "codepoint": 59679,
+      "aliases": [
+        "folder"
+      ],
+      "source": "lucide-static@1.25.0:folder",
+      "sourceOutlineSha256": "e6175edd118e8f03fdee7e31329033dbb8f08902a82da688c339aab48e01b0df"
+    },
+    {
+      "codepoint": 59680,
+      "aliases": [
+        "folder-open"
+      ],
+      "source": "lucide-static@1.25.0:folder-open",
+      "sourceOutlineSha256": "862ea1363709cd349f8b7b5699a311ad7448ed46980a72b80642873691af3e00"
+    },
+    {
+      "codepoint": 59681,
+      "aliases": [
+        "fork"
+      ],
+      "source": "lucide-static@1.25.0:git-fork",
+      "sourceOutlineSha256": "cb51ad12ec2669d89ffe35b6ddf290dc3e310d6fe73d5759e8fd28ef87907616"
+    },
+    {
+      "codepoint": 59682,
+      "aliases": [
+        "github"
+      ],
+      "source": "lucide-static@1.25.0:git-branch",
+      "sourceOutlineSha256": "b80f59d1337907faefd6e15b67c76968e74018c9f0e83f9e090efc66e80bfe39"
+    },
+    {
+      "codepoint": 59683,
+      "aliases": [
+        "globe"
+      ],
+      "source": "lucide-static@1.25.0:globe",
+      "sourceOutlineSha256": "b81362660988937fc0138b1bd950edbacff8c28a91684ae977dae68d88aff0d0"
+    },
+    {
+      "codepoint": 59684,
+      "aliases": [
+        "hamburger-nav"
+      ],
+      "source": "lucide-static@1.25.0:menu",
+      "sourceOutlineSha256": "dfb75b4cd9b418631b5cb4e12b60766251462a36306ce4901c7d2b7dad205ac2"
+    },
+    {
+      "codepoint": 59685,
+      "aliases": [
+        "hdd"
+      ],
+      "source": "lucide-static@1.25.0:hard-drive",
+      "sourceOutlineSha256": "a79c2867fa1dbfce40f947ffa1490b5dc7e67da19a7a2eed0f2712fbd509423c"
+    },
+    {
+      "codepoint": 59686,
+      "aliases": [
+        "help"
+      ],
+      "source": "lucide-static@1.25.0:circle-help",
+      "sourceOutlineSha256": "eb1f63d5c80db5f2866ff00a0101ac1974545e0a7b05bbc919e9efb12ce2001c"
+    },
+    {
+      "codepoint": 59687,
+      "aliases": [
+        "chevron-beginning"
+      ],
+      "source": "lucide-static@1.25.0:chevrons-left",
+      "sourceOutlineSha256": "e0165e971c39123da2573a762e44ebcf7eefebd8d487f5ae4d348611e323c18b"
+    },
+    {
+      "codepoint": 59688,
+      "aliases": [
+        "home"
+      ],
+      "source": "lucide-static@1.25.0:house",
+      "sourceOutlineSha256": "def3676f504878bff3cf02ae2197101295b859abbc10fa705bf2b5e64d8b7501"
+    },
+    {
+      "codepoint": 59689,
+      "aliases": [
+        "host"
+      ],
+      "source": "lucide-static@1.25.0:server",
+      "sourceOutlineSha256": "91a90a286a6c20e569decabe2151485b110fab4c54786456384a0e9596053025"
+    },
+    {
+      "codepoint": 59690,
+      "aliases": [
+        "info"
+      ],
+      "source": "lucide-static@1.25.0:info",
+      "sourceOutlineSha256": "9928f55b3384681620d89fb311fc5faddbdc71c8aa5d3e38a21bfceb6a8befdd"
+    },
+    {
+      "codepoint": 59691,
+      "aliases": [
+        "key"
+      ],
+      "source": "lucide-static@1.25.0:key",
+      "sourceOutlineSha256": "0b21b76ce1c1a0c40129ce4f2402968b740e85aa2379bd40366d3e8a780e781b"
+    },
+    {
+      "codepoint": 59692,
+      "aliases": [
+        "kubernetes"
+      ],
+      "source": "lucide-static@1.25.0:network",
+      "sourceOutlineSha256": "86b7dde32da081d9b9186cd16f14bb30b6e5bb1690f2b08ab2658ed6e74a5053"
+    },
+    {
+      "codepoint": 59693,
+      "aliases": [
+        "layeredgroup"
+      ],
+      "source": "lucide-static@1.25.0:panels-top-left",
+      "sourceOutlineSha256": "1f8793d04edf522a55720c152829b4a00068c9c0523fdff3ca097f689ba20622"
+    },
+    {
+      "codepoint": 59694,
+      "aliases": [
+        "layers"
+      ],
+      "source": "lucide-static@1.25.0:layers",
+      "sourceOutlineSha256": "b2ba0ec47ce5c8804fa2f323b6908bbcca7d0b9f4241a62602557499a6e2e41f"
+    },
+    {
+      "codepoint": 59695,
+      "aliases": [
+        "level-down"
+      ],
+      "source": "lucide-static@1.25.0:corner-left-down",
+      "sourceOutlineSha256": "277243695097ce7a07dcc1093336047fcbeac6e5c39f20c08a80ea93282eb8ac"
+    },
+    {
+      "codepoint": 59696,
+      "aliases": [
+        "life-ring"
+      ],
+      "source": "lucide-static@1.25.0:life-buoy",
+      "sourceOutlineSha256": "dbf83db5c6fd319eee489beca6c4baafba3b1b6289dca5d83109c54e99d87de9"
+    },
+    {
+      "codepoint": 59697,
+      "aliases": [
+        "x-circle"
+      ],
+      "source": "lucide-static@1.25.0:circle-x",
+      "sourceOutlineSha256": "e2761402107fca84a600dab8c33c00c1221a242e0a31473651b3fd9a098c478b"
+    },
+    {
+      "codepoint": 59698,
+      "aliases": [
+        "x-square"
+      ],
+      "source": "lucide-static@1.25.0:square-x",
+      "sourceOutlineSha256": "b1dcb52faeaf7afd160fc458298fe80c9e6d5f6281fbbac2f0daa22c61081ec9"
+    },
+    {
+      "codepoint": 59699,
+      "aliases": [
+        "stop"
+      ],
+      "source": "lucide-static@1.25.0:square",
+      "sourceOutlineSha256": "2121e8c133c4c4741599a66ba42d316903a1cfd5a622eda377a23c10d0b33a10"
+    },
+    {
+      "codepoint": 59700,
+      "aliases": [
+        "process",
+        "processes",
+        "gear"
+      ],
+      "source": "lucide-static@1.25.0:settings",
+      "sourceOutlineSha256": "329486629546487593388b1d4229de4f76f0ad9bb8c051b5a82cece6befbc146"
+    },
+    {
+      "codepoint": 59701,
+      "aliases": [
+        "vm"
+      ],
+      "source": "lucide-static@1.25.0:monitor",
+      "sourceOutlineSha256": "3354d328f14bfa99595480a491063743c9e3ccc6ea0b49a39e655538a000a28d"
+    },
+    {
+      "codepoint": 59702,
+      "aliases": [
+        "stacks"
+      ],
+      "source": "lucide-static@1.25.0:layers-3",
+      "sourceOutlineSha256": "b2ba0ec47ce5c8804fa2f323b6908bbcca7d0b9f4241a62602557499a6e2e41f"
+    },
+    {
+      "codepoint": 59703,
+      "aliases": [
+        "link"
+      ],
+      "source": "lucide-static@1.25.0:link",
+      "sourceOutlineSha256": "982f3032601abedbe9985f4b6aa17f4206ca5d86e8e474a8764c4be59f74c8f0"
+    },
+    {
+      "codepoint": 59704,
+      "aliases": [
+        "linux"
+      ],
+      "source": "lucide-static@1.25.0:square-terminal",
+      "sourceOutlineSha256": "108205166bcb7b253b1841d921b4f7c90616f79b01562d98452d947b4f3dcf53"
+    },
+    {
+      "codepoint": 59705,
+      "aliases": [
+        "lock"
+      ],
+      "source": "lucide-static@1.25.0:lock",
+      "sourceOutlineSha256": "13fbefe16747fd35b0607b5170f79ad9bef5be215e0f3282281740ff0873ebb3"
+    },
+    {
+      "codepoint": 59706,
+      "aliases": [
+        "logout"
+      ],
+      "source": "lucide-static@1.25.0:log-out",
+      "sourceOutlineSha256": "f306ffada977a24c670fcceb966684476c41607c37f03043c96053b8eee23948"
+    },
+    {
+      "codepoint": 59707,
+      "aliases": [
+        "plus",
+        "medical-cross"
+      ],
+      "source": "lucide-static@1.25.0:plus",
+      "sourceOutlineSha256": "3a282666d25e9f93fd791e1f130f106c3d33bdec6e03f8c90d8a38449cba6a85"
+    },
+    {
+      "codepoint": 59708,
+      "aliases": [
+        "memory"
+      ],
+      "source": "lucide-static@1.25.0:memory-stick",
+      "sourceOutlineSha256": "ea97775a6b084640f4fc3d6b78af9a975d7a4d0256582c212ce4b48fcb3d1635"
+    },
+    {
+      "codepoint": 59709,
+      "aliases": [
+        "minus-circle"
+      ],
+      "source": "lucide-static@1.25.0:circle-minus",
+      "sourceOutlineSha256": "17fe0ccd407443fec3d91ba44d41f62ca12f63accf218b2346a253f228676e60"
+    },
+    {
+      "codepoint": 59710,
+      "aliases": [
+        "minus-square"
+      ],
+      "source": "lucide-static@1.25.0:square-minus",
+      "sourceOutlineSha256": "559f8e9d87679dfd9837e0dba62cd5149ef43ce46299b625521a49c3a1920a94"
+    },
+    {
+      "codepoint": 59711,
+      "aliases": [
+        "minus"
+      ],
+      "source": "lucide-static@1.25.0:minus",
+      "sourceOutlineSha256": "eff34e0679603baf63b34a227ff4516a5c24788e5d95a2669197633fb4940d9c"
+    },
+    {
+      "codepoint": 59712,
+      "aliases": [
+        "network"
+      ],
+      "source": "lucide-static@1.25.0:network",
+      "sourceOutlineSha256": "86b7dde32da081d9b9186cd16f14bb30b6e5bb1690f2b08ab2658ed6e74a5053"
+    },
+    {
+      "codepoint": 59713,
+      "aliases": [
+        "notification"
+      ],
+      "source": "lucide-static@1.25.0:bell",
+      "sourceOutlineSha256": "91a13e134d4f6b61f90bb851362d58d189b515259cb4fea25a7833d2d8662225"
+    },
+    {
+      "codepoint": 59714,
+      "aliases": [
+        "pause"
+      ],
+      "source": "lucide-static@1.25.0:pause",
+      "sourceOutlineSha256": "b67441357afc510790b54b908138f4478c00a865cd5b3d54f807752ad3d2fe11"
+    },
+    {
+      "codepoint": 59715,
+      "aliases": [
+        "play"
+      ],
+      "source": "lucide-static@1.25.0:play",
+      "sourceOutlineSha256": "32ab149026301d8cdff7662044b9b315e58bd5b390205b424bd3c395fe5ca3d2"
+    },
+    {
+      "codepoint": 59716,
+      "aliases": [
+        "plus-circle"
+      ],
+      "source": "lucide-static@1.25.0:circle-plus",
+      "sourceOutlineSha256": "10b5d16ffcb784a23a80ab8bf71ca96ff3febda37e7fa7f5a2b4a643e87dfa80"
+    },
+    {
+      "codepoint": 59717,
+      "aliases": [
+        "plus-square"
+      ],
+      "source": "lucide-static@1.25.0:square-plus",
+      "sourceOutlineSha256": "8e1b6300d98da3affbe19301445c12b398499d63232ad7a768d35ad08dc3d5f1"
+    },
+    {
+      "codepoint": 59718,
+      "aliases": [
+        "pasture-stack"
+      ],
+      "source": "src/pasture-stack.svg",
+      "sourceOutlineSha256": "c50b6b163a396dd0dcb4eb883856e20093650e55d7d2f700fddf273b92db48d9"
+    },
+    {
+      "codepoint": 59719,
+      "aliases": [
+        "refresh"
+      ],
+      "source": "lucide-static@1.25.0:refresh-cw",
+      "sourceOutlineSha256": "03f0cff3279208a2ab8e4d0a2d3f394ec7466bf7e5ee5f6015438ddad3d4f218"
+    },
+    {
+      "codepoint": 59720,
+      "aliases": [
+        "search"
+      ],
+      "source": "lucide-static@1.25.0:search",
+      "sourceOutlineSha256": "209507f9a76a7c64e32d68215838518df380568819852519fd7902658e545f1d"
+    },
+    {
+      "codepoint": 59721,
+      "aliases": [
+        "share"
+      ],
+      "source": "lucide-static@1.25.0:share-2",
+      "sourceOutlineSha256": "c0f6058d3715c92fb8600842ac022540482e95c01aabe762b19ed0cd3d72883c"
+    },
+    {
+      "codepoint": 59722,
+      "aliases": [
+        "sort-down"
+      ],
+      "source": "lucide-static@1.25.0:arrow-down-narrow-wide",
+      "sourceOutlineSha256": "fcafc3466dca84df03e3e7cada63506ff85a1d319203617691ad273a510b504c"
+    },
+    {
+      "codepoint": 59723,
+      "aliases": [
+        "sort-up"
+      ],
+      "source": "lucide-static@1.25.0:arrow-up-narrow-wide",
+      "sourceOutlineSha256": "c3e9e05f5e213d9d15326ebc0a2f4d4e5b88d8eca15086b475092c88446b9773"
+    },
+    {
+      "codepoint": 59724,
+      "aliases": [
+        "sort"
+      ],
+      "source": "lucide-static@1.25.0:arrow-down-up",
+      "sourceOutlineSha256": "d36e22d0c2eb37f21e3dcb756cbee0aad6d5978f4070bca53ca97d92084ac5a7"
+    },
+    {
+      "codepoint": 59725,
+      "aliases": [
+        "spinner"
+      ],
+      "source": "lucide-static@1.25.0:loader-circle",
+      "sourceOutlineSha256": "efbf98aa73febb0ba2500aa1da6b1f5fc4445c7f7dbe58fa939949302bda52d1"
+    },
+    {
+      "codepoint": 59726,
+      "aliases": [
+        "square"
+      ],
+      "source": "lucide-static@1.25.0:square",
+      "sourceOutlineSha256": "2121e8c133c4c4741599a66ba42d316903a1cfd5a622eda377a23c10d0b33a10"
+    },
+    {
+      "codepoint": 59727,
+      "aliases": [
+        "success"
+      ],
+      "source": "lucide-static@1.25.0:circle-check",
+      "sourceOutlineSha256": "d429a4bdc25e4e067271b25c1784947caabe27b8b9bef249d3aa2798dea12126"
+    },
+    {
+      "codepoint": 59728,
+      "aliases": [
+        "tachometer"
+      ],
+      "source": "lucide-static@1.25.0:gauge",
+      "sourceOutlineSha256": "0527c89e47e60bad54037a2e9851c18d62f221db15e3e0b0285bba0aca61e323"
+    },
+    {
+      "codepoint": 59729,
+      "aliases": [
+        "tag"
+      ],
+      "source": "lucide-static@1.25.0:tag",
+      "sourceOutlineSha256": "3f421c8ebb84cf17abeac3dacd90fd1067628e390037990707c54d9f01c8287d"
+    },
+    {
+      "codepoint": 59730,
+      "aliases": [
+        "target"
+      ],
+      "source": "lucide-static@1.25.0:target",
+      "sourceOutlineSha256": "6b6aca62089e0f243b87652c60fe14026ebabb23329e24b3d2d40a689b43a88b"
+    },
+    {
+      "codepoint": 59731,
+      "aliases": [
+        "tasks"
+      ],
+      "source": "lucide-static@1.25.0:list-checks",
+      "sourceOutlineSha256": "e391a323a663ec5130b48f3c32d2949f5078721d3d78abe238a292753aace9c1"
+    },
+    {
+      "codepoint": 59732,
+      "aliases": [
+        "catalog"
+      ],
+      "source": "lucide-static@1.25.0:library",
+      "sourceOutlineSha256": "bc1fc73a8f3d53bfd9c9653038ff827c75b5a994c5f05fa9b019f5a26ac3af86"
+    },
+    {
+      "codepoint": 59733,
+      "aliases": [
+        "service",
+        "services"
+      ],
+      "source": "lucide-static@1.25.0:workflow",
+      "sourceOutlineSha256": "745b4f0dc3701afd3c55949c07e79acf1c8779880d58b39abbb58d1847bce22b"
+    },
+    {
+      "codepoint": 59734,
+      "aliases": [
+        "docker"
+      ],
+      "source": "lucide-static@1.25.0:package",
+      "sourceOutlineSha256": "496639d171ad9255f3ee4ff6a60c8ae5ce4456845e5c9ecf2af16f383c687c04"
+    },
+    {
+      "codepoint": 59735,
+      "aliases": [
+        "auto"
+      ],
+      "source": "lucide-static@1.25.0:wand-sparkles",
+      "sourceOutlineSha256": "16db8187f42551dea10ebe41f39ae8d5ba368d5c832773701adacd9312275a53"
+    },
+    {
+      "codepoint": 59736,
+      "aliases": [
+        "moon"
+      ],
+      "source": "lucide-static@1.25.0:moon",
+      "sourceOutlineSha256": "b9372a9137f444ccc1f3d50a23d0ccaa26ef9238759c20640f811066c9e63c45"
+    },
+    {
+      "codepoint": 59737,
+      "aliases": [
+        "sun"
+      ],
+      "source": "lucide-static@1.25.0:sun",
+      "sourceOutlineSha256": "2c607b19c3691b139b54210de7e3dcff2c697e4b50f7567f92b59b519faf7069"
+    },
+    {
+      "codepoint": 59738,
+      "aliases": [
+        "line-ellipsis"
+      ],
+      "source": "lucide-static@1.25.0:ellipsis",
+      "sourceOutlineSha256": "66e949cab8e146eda6bddcd5b31b2d0ac13c2931e04c7f12793a0ded95a68f21"
+    },
+    {
+      "codepoint": 59739,
+      "aliases": [
+        "terminal"
+      ],
+      "source": "lucide-static@1.25.0:terminal",
+      "sourceOutlineSha256": "12d6061ac16e2abbc9ac83e8456473a0ab9caa6816fef2e25a7884f824e70326"
+    },
+    {
+      "codepoint": 59740,
+      "aliases": [
+        "thumbnails"
+      ],
+      "source": "lucide-static@1.25.0:grid-3x3",
+      "sourceOutlineSha256": "a6eefed1af567585cf601e6b8ed98fa19caa41418e310ec1d0904a06187ade1a"
+    },
+    {
+      "codepoint": 59741,
+      "aliases": [
+        "purged"
+      ],
+      "source": "lucide-static@1.25.0:trash-2",
+      "sourceOutlineSha256": "5dc16840acef77158fbfe9c5884c4ce3363033e5f6454201c7c03b8bdb42e39d"
+    },
+    {
+      "codepoint": 59742,
+      "aliases": [
+        "trash"
+      ],
+      "source": "lucide-static@1.25.0:trash-2",
+      "sourceOutlineSha256": "5dc16840acef77158fbfe9c5884c4ce3363033e5f6454201c7c03b8bdb42e39d"
+    },
+    {
+      "codepoint": 59743,
+      "aliases": [
+        "umbrella"
+      ],
+      "source": "lucide-static@1.25.0:umbrella",
+      "sourceOutlineSha256": "797c64ec2b1c302893668c146f727e8e0259c324da976d7c72dfce32be816623"
+    },
+    {
+      "codepoint": 59744,
+      "aliases": [
+        "unlock"
+      ],
+      "source": "lucide-static@1.25.0:lock-open",
+      "sourceOutlineSha256": "f397c4b2b4283525fb28fd2b556f0253dc71a15868a857479988c7133cc4be9a"
+    },
+    {
+      "codepoint": 59745,
+      "aliases": [
+        "upload"
+      ],
+      "source": "lucide-static@1.25.0:upload",
+      "sourceOutlineSha256": "8346d92bd22417fccd035e7dfb9b69e143d6d33b4978ad1bbed54f85885c5509"
+    },
+    {
+      "codepoint": 59746,
+      "aliases": [
+        "user"
+      ],
+      "source": "lucide-static@1.25.0:user",
+      "sourceOutlineSha256": "5b4513a4a2d2bcbfc6a5be64f70238b1a1a420148f78003a9a17cad74ef73c49"
+    },
+    {
+      "codepoint": 59747,
+      "aliases": [
+        "users"
+      ],
+      "source": "lucide-static@1.25.0:users",
+      "sourceOutlineSha256": "4c22c033289d14627d507e65a3792705fa427f89cc243254200f9a1f34328409"
+    },
+    {
+      "codepoint": 59748,
+      "aliases": [
+        "windows"
+      ],
+      "source": "lucide-static@1.25.0:panels-top-left",
+      "sourceOutlineSha256": "1f8793d04edf522a55720c152829b4a00068c9c0523fdff3ca097f689ba20622"
+    },
+    {
+      "codepoint": 59749,
+      "aliases": [
+        "x",
+        "close"
+      ],
+      "source": "lucide-static@1.25.0:x",
+      "sourceOutlineSha256": "d2a2863db35881793e0ff3df6e48712f8c5824ce9962e10d88ba230a2505bc62"
+    },
+    {
+      "codepoint": 59750,
+      "aliases": [
+        "vertical-ellipsis"
+      ],
+      "source": "lucide-static@1.25.0:ellipsis-vertical",
+      "sourceOutlineSha256": "3a3c20e882207f6efbf739d8289687da823bf7cf933999ecb6c04fa47dbf58a9"
+    },
+    {
+      "codepoint": 59751,
+      "aliases": [
+        "heptagon"
+      ],
+      "source": "lucide-static@1.25.0:hexagon",
+      "sourceOutlineSha256": "e9b4328ba5a142c7e37b02ad24769ed380231cf445279003c70fb4ac1a155710"
+    },
+    {
+      "codepoint": 59752,
+      "aliases": [
+        "backup",
+        "history"
+      ],
+      "source": "lucide-static@1.25.0:history",
+      "sourceOutlineSha256": "bb97e7c80a7979f596401b3797d4ccc45163004fa6c57b891d90c57fc2f465ef"
+    },
+    {
+      "codepoint": 59753,
+      "aliases": [
+        "snapshot"
+      ],
+      "source": "lucide-static@1.25.0:camera",
+      "sourceOutlineSha256": "165a510d43ebb536a59c266785bab0d108e2a6133a17011d6567646fe2f1c4b1"
+    },
+    {
+      "codepoint": 59754,
+      "aliases": [
+        "chevron-end"
+      ],
+      "source": "lucide-static@1.25.0:chevrons-right",
+      "sourceOutlineSha256": "762b515a69905de1713313cfe1a72d06efc5889797ee9db153cde4f4dcff0389"
+    },
+    {
+      "codepoint": 59755,
+      "aliases": [
+        "secrets"
+      ],
+      "source": "lucide-static@1.25.0:key-round",
+      "sourceOutlineSha256": "95853c493273ba56ceb030abb40fddddff3ef6499c8cc944a76eb1dcdd235f52"
+    }
+  ]
+}

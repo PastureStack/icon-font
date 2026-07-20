@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.ttf binary
+*.woff binary
+*.woff2 binary
+LICENSE text eol=lf
+LICENSES/LUCIDE.txt binary

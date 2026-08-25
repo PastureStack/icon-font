@@ -10,7 +10,7 @@ The 108 codepoints and 116 CSS aliases are retained as an interface contract so 
 
 ## Functional glyph outlines
 
-- Source package: `lucide-static@1.25.0`
+- Source package: `lucide-static@1.34.0`
 - Upstream: `https://github.com/lucide-icons/lucide`
 - Source font: `node_modules/lucide-static/font/lucide.ttf`, locked by `package-lock.json`
 - Mapping: `src/icon-map.json`
@@ -21,7 +21,7 @@ Product-like legacy compatibility aliases map to neutral Lucide symbols. No Appl
 
 ## Build toolchain and dependency integrity
 
-- Runtime: Node.js 24.18.0 LTS
+- Runtime: Node.js 24.19.0 LTS
 - Package manager: npm 12.0.2
 - Lock format: npm lockfile version 3
 - Registry allowlist: `registry.npmjs.org`

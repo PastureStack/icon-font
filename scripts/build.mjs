@@ -12,7 +12,7 @@ import ttf2woff2 from "ttf2woff2";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const manifest = JSON.parse(await readFile(path.join(root, "src", "icon-map.json"), "utf8"));
 const family = "pasturestack-icons";
-const assetVersion = "2.0.0-alpha.0-lucide-1.25.0";
+const assetVersion = "2.0.0-alpha.0-lucide-1.34.0";
 const fixedTimestamp = Date.UTC(2026, 6, 18) / 1000;
 const lucideRoot = path.join(root, "node_modules", "lucide-static");
 

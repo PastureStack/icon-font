@@ -8,7 +8,7 @@ PastureStack is an independent community effort to preserve, audit, and moderniz
 
 ## Local validation
 
-The build toolchain is pinned to Node.js 24.18.0 LTS and npm 12.0.2. Use those exact versions so the lockfile, native WOFF2 converter, and generated font artifacts are reproducible.
+The build toolchain is pinned to Node.js 24.19.0 LTS and npm 12.0.2. Use those exact versions so the lockfile, native WOFF2 converter, and generated font artifacts are reproducible.
 
 ```sh
 npm ci

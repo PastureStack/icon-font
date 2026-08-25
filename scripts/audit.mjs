@@ -12,7 +12,7 @@ const personalDenylist = [
 ];
 const expectedRootLicenseHash = "1d5afc26765f4da03ed7605f2944198b985dac1ddac0ec0b5ace57fe06b94330";
 const expectedLucideLicenseHash = "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57";
-const expectedLucideTtfHash = "dea2cbded3b651e82688938c1a7a75a475cfd1315dd8e6991a6623f8813bd6ac";
+const expectedLucideTtfHash = "2ff7709e2f12f6ce07b2df9d3bad4120b622bfdb12c5c8eeaf5a713cf5bba233";
 
 function sha256(value) {
   return createHash("sha256").update(value).digest("hex");
@@ -84,9 +84,9 @@ const packageJson = JSON.parse(await readFile(path.join(root, "package.json"), "
 const packageLock = JSON.parse(await readFile(path.join(root, "package-lock.json"), "utf8"));
 if (
   packageJson.packageManager !== "npm@12.0.2" ||
-  packageJson.engines?.node !== "24.18.0" ||
+  packageJson.engines?.node !== "24.19.0" ||
   packageJson.engines?.npm !== "12.0.2" ||
-  packageJson.devEngines?.runtime?.version !== "24.18.0" ||
+  packageJson.devEngines?.runtime?.version !== "24.19.0" ||
   packageJson.devEngines?.packageManager?.version !== "12.0.2"
 ) {
   throw new Error("The Node.js LTS and npm build toolchain must remain exactly pinned");
@@ -96,6 +96,9 @@ if (
   packageJson.allowScripts["ttf2woff2@8.0.1"] !== true
 ) {
   throw new Error("Only the reviewed ttf2woff2 lifecycle script may be enabled");
+}
+if (packageJson.overrides?.ttf2woff2?.["node-gyp"] !== "13.0.1") {
+  throw new Error("ttf2woff2 must use the maintained Node 24-compatible node-gyp release");
 }
 if (
   packageLock.lockfileVersion !== 3 ||
@@ -123,21 +126,20 @@ if (lifecycleScripts.join(",") !== "node_modules/ttf2woff2@8.0.1") {
 }
 
 const lockedVersion = (name) => packageLock.packages?.[`node_modules/${name}`]?.version;
-if (lockedVersion("ip-address") !== "10.4.0") {
-  throw new Error("ip-address must remain at the audited 10.4.0 release");
+if (lockedVersion("node-gyp") !== "13.0.1" || lockedVersion("glob") !== "13.0.6") {
+  throw new Error("The native font build chain must use node-gyp 13 and glob 13");
 }
 if (lockedVersion("brace-expansion") !== "5.0.9") {
   throw new Error("brace-expansion 5.x must remain at the fully patched 5.0.9 release");
 }
-const nestedBrace = packageLock.packages?.["node_modules/cacache/node_modules/brace-expansion"]?.version;
-if (nestedBrace !== "2.1.4") {
-  throw new Error("brace-expansion 2.x must remain at the fully patched 2.1.4 release");
+for (const obsolete of ["cacache", "make-fetch-happen", "ip-address"]) {
+  if (lockedVersion(obsolete)) throw new Error(`Obsolete node-gyp 11 dependency remains: ${obsolete}`);
 }
 if (lockedVersion("tar") !== "7.5.22") {
   throw new Error("tar must remain at the audited 7.5.22 release");
 }
 const lucidePackage = JSON.parse(await readFile(path.join(root, "node_modules", "lucide-static", "package.json"), "utf8"));
-if (packageJson.devDependencies["lucide-static"] !== "1.25.0" || lucidePackage.version !== "1.25.0" || lucidePackage.license !== "ISC") {
+if (packageJson.devDependencies["lucide-static"] !== "1.34.0" || lucidePackage.version !== "1.34.0" || lucidePackage.license !== "ISC") {
   throw new Error("Lucide package version or license metadata changed");
 }
 
@@ -182,7 +184,7 @@ for (const entry of manifest.icons) {
 }
 
 const sourceManifest = JSON.parse(await readFile(path.join(root, "source-manifest.json"), "utf8"));
-if (sourceManifest.generatedFrom !== "lucide-static@1.25.0" || sourceManifest.lucideTtfSha256 !== expectedLucideTtfHash || sourceManifest.icons.length !== 108) {
+if (sourceManifest.generatedFrom !== "lucide-static@1.34.0" || sourceManifest.lucideTtfSha256 !== expectedLucideTtfHash || sourceManifest.icons.length !== 108) {
   throw new Error("Generated source provenance manifest is invalid");
 }
 for (const entry of sourceManifest.icons) {

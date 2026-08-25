@@ -1,10 +1,10 @@
 @font-face {
   font-family: "pasturestack-icons";
   src:
-    url("fonts/pasturestack-icons.woff2?v=2.0.0-alpha.0-lucide-1.25.0") format("woff2"),
-    url("fonts/pasturestack-icons.woff?v=2.0.0-alpha.0-lucide-1.25.0") format("woff"),
-    url("fonts/pasturestack-icons.ttf?v=2.0.0-alpha.0-lucide-1.25.0") format("truetype"),
-    url("fonts/pasturestack-icons.svg?v=2.0.0-alpha.0-lucide-1.25.0#pasturestack-icons") format("svg");
+    url("fonts/pasturestack-icons.woff2?v=2.0.0-alpha.0-lucide-1.34.0") format("woff2"),
+    url("fonts/pasturestack-icons.woff?v=2.0.0-alpha.0-lucide-1.34.0") format("woff"),
+    url("fonts/pasturestack-icons.ttf?v=2.0.0-alpha.0-lucide-1.34.0") format("truetype"),
+    url("fonts/pasturestack-icons.svg?v=2.0.0-alpha.0-lucide-1.34.0#pasturestack-icons") format("svg");
   font-display: block;
   font-style: normal;
   font-weight: normal;

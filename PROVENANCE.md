@@ -21,7 +21,7 @@ Product-like legacy compatibility aliases map to neutral Lucide symbols. No Appl
 
 ## Build toolchain and dependency integrity
 
-- Runtime: Node.js 24.19.0 LTS
+- Runtime: Node.js 24.20.0 LTS
 - Package manager: npm 12.0.2
 - Lock format: npm lockfile version 3
 - Registry allowlist: `registry.npmjs.org`

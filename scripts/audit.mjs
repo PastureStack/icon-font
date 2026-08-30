@@ -82,7 +82,9 @@ if (sha256(lucideTtf) !== expectedLucideTtfHash) throw new Error("Locked Lucide 
 
 const packageJson = JSON.parse(await readFile(path.join(root, "package.json"), "utf8"));
 const packageLock = JSON.parse(await readFile(path.join(root, "package-lock.json"), "utf8"));
+const nodeVersionFile = (await readFile(path.join(root, ".node-version"), "utf8")).trim();
 if (
+  nodeVersionFile !== "24.20.0" ||
   packageJson.packageManager !== "npm@12.0.2" ||
   packageJson.engines?.node !== "24.20.0" ||
   packageJson.engines?.npm !== "12.0.2" ||

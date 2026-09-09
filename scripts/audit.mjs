@@ -10,12 +10,16 @@ const personalDenylist = [
   Buffer.from("6368656e3231303139", "hex").toString("utf8"),
   Buffer.from("6368656e323130313940676d61696c2e636f6d", "hex").toString("utf8")
 ];
-const expectedRootLicenseHash = "1d5afc26765f4da03ed7605f2944198b985dac1ddac0ec0b5ace57fe06b94330";
+const expectedRootLicenseHash = "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0";
 const expectedLucideLicenseHash = "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57";
 const expectedLucideTtfHash = "2ff7709e2f12f6ce07b2df9d3bad4120b622bfdb12c5c8eeaf5a713cf5bba233";
 
 function sha256(value) {
   return createHash("sha256").update(value).digest("hex");
+}
+
+function normalizeTextLineEndings(value) {
+  return Buffer.from(value.toString("utf8").replaceAll("\r\n", "\n"), "utf8");
 }
 
 async function filesUnder(directory, relative = "") {
@@ -69,7 +73,7 @@ for (const disallowed of ["selection.json", "compatibility-baseline.json"]) {
   }
 }
 
-if (sha256(await readFile(path.join(root, "LICENSE"))) !== expectedRootLicenseHash) {
+if (sha256(normalizeTextLineEndings(await readFile(path.join(root, "LICENSE")))) !== expectedRootLicenseHash) {
   throw new Error("Root LICENSE changed unexpectedly");
 }
 const lucideLicense = await readFile(path.join(root, "node_modules", "lucide-static", "LICENSE"));

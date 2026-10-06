@@ -135,8 +135,8 @@ const lockedVersion = (name) => packageLock.packages?.[`node_modules/${name}`]?.
 if (lockedVersion("node-gyp") !== "13.0.1" || lockedVersion("glob") !== "13.0.6") {
   throw new Error("The native font build chain must use node-gyp 13 and glob 13");
 }
-if (lockedVersion("brace-expansion") !== "5.0.9") {
-  throw new Error("brace-expansion 5.x must remain at the fully patched 5.0.9 release");
+if (lockedVersion("brace-expansion") !== "5.0.12") {
+  throw new Error("brace-expansion 5.x must remain at the fully patched 5.0.12 release");
 }
 for (const obsolete of ["cacache", "make-fetch-happen", "ip-address"]) {
   if (lockedVersion(obsolete)) throw new Error(`Obsolete node-gyp 11 dependency remains: ${obsolete}`);

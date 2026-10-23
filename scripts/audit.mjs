@@ -88,11 +88,11 @@ const packageJson = JSON.parse(await readFile(path.join(root, "package.json"), "
 const packageLock = JSON.parse(await readFile(path.join(root, "package-lock.json"), "utf8"));
 const nodeVersionFile = (await readFile(path.join(root, ".node-version"), "utf8")).trim();
 if (
-  nodeVersionFile !== "24.20.0" ||
+  nodeVersionFile !== "24.22.1" ||
   packageJson.packageManager !== "npm@12.0.2" ||
-  packageJson.engines?.node !== "24.20.0" ||
+  packageJson.engines?.node !== "24.22.1" ||
   packageJson.engines?.npm !== "12.0.2" ||
-  packageJson.devEngines?.runtime?.version !== "24.20.0" ||
+  packageJson.devEngines?.runtime?.version !== "24.22.1" ||
   packageJson.devEngines?.packageManager?.version !== "12.0.2"
 ) {
   throw new Error("The Node.js LTS and npm build toolchain must remain exactly pinned");
